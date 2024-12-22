@@ -16,7 +16,7 @@ const Header = () => {
           </div>
           <div className="text-center md:text-left">
             <h1 className="text-4xl sm:text-5xl font-bold mb-6">Rahgul M S</h1>
-            <p className="text-xl sm:text-2xl text-blue-100 mb-4">STUDENT | PYTHON DEVELOPER</p>
+            <p className="text-xl sm:text-2xl text-blue-100 mb-4">STUDENT | PYTHON DEVELOPER | JAVA DEVELOPER</p>
             <p className="text-lg text-blue-100 mb-8 max-w-3xl">
               Second-year B.Tech student specializing in Computer Science and Engineering with a focus on
               Artificial Intelligence and Machine Learning at the Karunya Institute of Technology and Sciences.
