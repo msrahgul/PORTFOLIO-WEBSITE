@@ -1,23 +1,22 @@
 import React from 'react';
-import { Briefcase } from 'lucide-react';
-import TaskCard from './TaskCard';
+import { Briefcase, ExternalLink } from 'lucide-react'; // Import the ExternalLink icon
 
 const Experience = () => {
   const tasks = [
     {
       title: "Task 1",
       description: "I created a registration form using Tkinter. This simple form collects user details and stores them in a Word file. It also includes a verification step to ensure the entered data is correct.",
-      videoUrl: "https://www.youtube.com/embed/yGUEC-V7wEQ?si=anUEXw8w-jN_ad7B"
+      link: "https://github.com/msrahgul/Internship_2024_Summer/tree/main/Next24Tech/Task%201"
     },
     {
       title: "Task 2",
-      description: "I created a cricket chatbot using Tkinter for the graphical user interface I utilized FuzzyWuzzy for fuzzy string matching and Python's logging module for event logging. The chatbot is designed to answer questions based on pre-fed data. ",
-      videoUrl: "https://www.youtube.com/embed/kZzt8DSUPR8?si=IeERFaMW5YdiXN1W"
+      description: "I created a cricket chatbot using Tkinter for the graphical user interface. I utilized FuzzyWuzzy for fuzzy string matching and Python's logging module for event logging. The chatbot is designed to answer questions based on pre-fed data.",
+      link: "https://github.com/msrahgul/Internship_2024_Summer/tree/main/Next24Tech/Task%202"
     },
     {
       title: "Task 3",
-      description: "I created a lyrics fetcher using Tkinter for the graphical interface and the Genius API to fetch song lyrics. The application offers two options: upload a song or enter the artist and song name. The lyrics are then fetched automatically. ",
-      videoUrl: "https://www.youtube.com/embed/AKDtvPD269E?si=ICalISpRThtsU1vD"
+      description: "I created a lyrics fetcher using Tkinter for the graphical interface and the Genius API to fetch song lyrics. The application offers two options: upload a song or enter the artist and song name. The lyrics are then fetched automatically.",
+      link: "https://github.com/msrahgul/Internship_2024_Summer/tree/main/Next24Tech/Task%203"
     }
   ];
 
@@ -25,7 +24,7 @@ const Experience = () => {
     <section className="py-20 bg-gray-100">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <h2 className="text-3xl font-bold text-gray-900 mb-8 text-center">Work Experience</h2>
-        
+
         <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
           <div className="flex items-start gap-4">
             <Briefcase className="text-blue-600 mt-1" size={24} />
@@ -46,17 +45,16 @@ const Experience = () => {
           {tasks.map((task, index) => (
             <div key={index} className="bg-white rounded-lg shadow-md p-4">
               <h4 className="text-lg font-semibold text-gray-900 mb-2">{task.title}</h4>
-              <p className="text-gray-700 mb-4">{task.description}</p>
-              <div className="aspect-w-16 aspect-h-9">
-                <iframe
-                  src={task.videoUrl}
-                  title={task.title}
-                  frameBorder="0"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                  allowFullScreen
-                  className="w-full h-full rounded-lg"
-                ></iframe>
-              </div>
+              <p className="text-gray-700">{task.description}</p>
+              <a
+                href={task.link}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-blue-600 font-bold underline hover:text-blue-800 transition-colors text-sm flex items-center gap-2"
+              >
+                View Project
+                <ExternalLink size={16} className="text-blue-600" />
+              </a>
             </div>
           ))}
         </div>

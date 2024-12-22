@@ -1,4 +1,5 @@
 import React from 'react';
+import {ExternalLink } from 'lucide-react'; // Import the ExternalLink icon
 
 const ProjectCard = ({ title, description, tech, link, videoUrl }) => {
   return (
@@ -29,9 +30,10 @@ const ProjectCard = ({ title, description, tech, link, videoUrl }) => {
         href={link}
         target="_blank"
         rel="noopener noreferrer"
-        className="text-blue-600 font-bold underline hover:text-blue-800 transition-colors text-sm"
+        className="text-blue-600 font-bold underline hover:text-blue-800 transition-colors text-sm flex items-center gap-2"
       >
-        View on GitHub
+        View Project
+        <ExternalLink size={16} className="text-blue-600" />
       </a>
     </div>
   );

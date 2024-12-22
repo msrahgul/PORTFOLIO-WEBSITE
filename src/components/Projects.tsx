@@ -7,14 +7,14 @@ const Projects = () => {
       title: "Smart Aquarium Using Arduino UNO",
       description: "I have uploaded my working model code on GitHub. You can find the link to my project here. While I understand this may not be an impressive project, it provided me with extensive knowledge about using Arduino components and coding. Despite its simplicity, I encountered numerous challenges along the way. Through this project, I gained significant confidence in tackling many more projects in the future. ",
       tech: ['Arduino', 'Python','Hardware'],
-      link: "https://github.com/rahgulms/smart-aquarium",
+      link: "https://github.com/msrahgul/Smart_Aquarium_Using_Arduino_UNO",
       videoUrl: "https://youtu.be/vRwijVWaNuo?si=gLvG9PoBOHZsKRsv"
     },
     {
       title: "Reserve My Show",
       description: "This is my first Python project, where I developed a simple interface for reserving a show. The primary objective of this project was to familiarize myself with Python programming and understand how to create user interfaces. Through this project, I learned the basics of Python ",
       tech: ['Python'],
-      link: "https://github.com/rahgulms/reserve-my-show",
+      link: "https://github.com/msrahgul/reserve_my_show",
       videoUrl: "https://youtu.be/iDBhbLQMCCg?si=bYCN2Hb2Zv31Y7X9"
     }
   ];
