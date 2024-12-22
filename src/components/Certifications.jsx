@@ -7,19 +7,19 @@ const Certifications = () => {
       title: "English Language And Literature",
       issuer: "NPTEL",
       date: "JAN-APR 2024",
-      link: "https://coursera.org/certificate/react-cert",
+      link: "https://drive.google.com/file/d/1WaCJtjsGok_0-iGAwGfVQ70OERNczGof/view?usp=sharing",
     },
     {
       title: "PCAP: Programming Essentials in Python",
       issuer: "CISCO NETWORKING ACADEMY",
       date: "JAN 2024",
-      link: "https://coursera.org/certificate/python-cert",
+      link: "https://drive.google.com/file/d/12aJjuZ_MJcyAgYHXyNYAlNcVCBve8TVT/view?usp=sharing",
     },
     {
       title: "CLA: Programming Essential in C",
       issuer: "CISCO NETWORKING ACADEMY",
       date: "NOV 2023",
-      link: "https://coursera.org/certificate/ml-cert",
+      link: "https://drive.google.com/file/d/1pdenm7falRY-k0m4OvtmcyIrBSgouJOX/view?usp=sharing",
     },
   ];
 
