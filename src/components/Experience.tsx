@@ -10,12 +10,12 @@ const Experience = () => {
     },
     {
       title: "Task 2",
-      description: "I created a cricket chatbot using Tkinter for the graphical user interface. I utilized FuzzyWuzzy for fuzzy string matching and Python's logging module for event logging. The chatbot is designed to answer questions based on pre-fed data.",
+      description: "I created a cricket chatbot using Pretrained Data and Tkinter for the graphical user interface. I utilized FuzzyWuzzy for fuzzy string matching and Python's logging module for event logging.",
       link: "https://github.com/msrahgul/Internship_2024_Summer/tree/main/Next24Tech/Task%202"
     },
     {
       title: "Task 3",
-      description: "I created a lyrics fetcher using Tkinter for the graphical interface and the Genius API to fetch song lyrics. The application offers two options: upload a song or enter the artist and song name. The lyrics are then fetched automatically.",
+      description: "I created a lyrics fetcher using Tkinter for the graphical interface and the Genius API to fetch song lyrics. The application offers two options: upload a song or enter the artist and song name.",
       link: "https://github.com/msrahgul/Internship_2024_Summer/tree/main/Next24Tech/Task%203"
     }
   ];

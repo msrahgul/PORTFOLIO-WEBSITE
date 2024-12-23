@@ -6,6 +6,7 @@ const Skills = () => {
   const skills = [
     'C Programming',
     'Python',
+    'Arduino',
     'Java',
     'MySQL'
   ];
